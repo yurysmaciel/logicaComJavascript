@@ -129,3 +129,27 @@ console.log(typeof soma1);
 console.log(typeof subtracao);
 console.log(typeof divisao);
 console.log(typeof multiplicacao);
+
+//Template string e concatenação
+
+const nome1 = "Yury";
+const nome2 = "Soares";
+const nome3 = "Maciel";
+
+const nomeCompleto = nome1 + nome2 + nome3;
+
+const nomeCompleto2 = nome1 + " " + nome2 + " " + nome3;
+
+const nomeCompleto3 = `Olá Meu nome completo é ${nome1} ${nome2} ${nome3}`;
+console.log(nomeCompleto);
+console.log(nomeCompleto2);
+console.log(nomeCompleto3);
+
+//crie uma variável, coloque dentro de uma variável usando template string
+//e mostre o resultado no console
+
+const nomeAluno1 = "Yury";
+const nomeAluno2 = "Alex";
+
+const alunos = `Olá temos os seguintes alunos no grupo ${nomeAluno1} ${nomeAluno2}`;
+console.log(alunos)
